@@ -69,6 +69,32 @@
     color: red;
     border-radius: 4px;
 }
+.table-section{
+    padding: 0 10px;
+}
+
+.table-style{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.table-style,th, td{
+    border: 1px solid slategray;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 5px auto;
+    text-align: center;
+}
+
+.table-style th:nth-child(even){
+    background-color: aquamarine;
+}
+
+.table-style th:nth-child(odd){
+    background-color: lightslategrey;
+}
 
 @media only screen and (max-width: 600px){
 	.container{
@@ -77,5 +103,8 @@
     }
     .btn-container{
        margin: 0;
+    }
+    .table-style{
+        overflow-x: auto;
     }
 }
