@@ -9,7 +9,7 @@ const FormPage = () => {
                 <form>
                     <label for="date">
                         <span>Date <span class="required">*</span></span>
-                        <input type="text" class="input-field" name="date" placeholder='Enter Date'/>
+                        <input type="text" class="input-field input-date" name="date" placeholder='Enter Date'/>
                     </label>
                     <label for="amount">
                         <span>Amount<span class="required">*</span></span>
@@ -26,7 +26,7 @@ const FormPage = () => {
                         <span>Remark</span>
                         <input type="text" class="input-field" name="remark" placeholder='Enter Remark'/>
                     </label>
-                    <div>
+                    <div className='btn-container'>
                         <button className='form-btn cancel-btn' type='submit'>Cancel</button>
                         <button className='form-btn submit-btn' type='submit'>Submit</button>
                     </div>
