@@ -18,6 +18,7 @@ const FormPage = () => {
             remark
         }
         setAllData([...allData,newData])
+        e.target.reset()
     }
 
 
